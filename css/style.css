@@ -67,7 +67,7 @@ ul{
 }
 li{
 	float: left;
-		: none;
+	list-style-type: none;
 	padding: 10px;
 	background: black;
 	margin: 3px;
