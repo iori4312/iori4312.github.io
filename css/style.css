@@ -1,0 +1,125 @@
+/*font-family: 'Baloo Bhaina', cursive;
+font-family: 'Modak', cursive;
+font-family: 'Baloo Tamma', cursive;
+font-family: 'Yatra One', cursive;
+font-family: 'PT Serif', serif;*/
+
+#contenidos{
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	position: relative;
+
+}
+
+/*ETIQUETAS*/
+body{
+	background-image: url(http://ttf-comunity.es/wp-content/uploads/2015/08/fondo-web-5348s-116457.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	}
+h1{
+		font-family: 'Modak', cursive;
+		margin-left: 10px;
+		font-size: 40px;
+		text-align: center;
+	}
+h2{
+		font-family: 'PT Serif', serif;
+		margin-left: 10px;
+		margin: 10px;
+		font-size: 20px;
+		text-align: left;
+	}
+h3{
+		font-family: 'PT Serif', serif;
+		margin-left: 10px;
+		margin: 10px;
+		font-size: 25px;
+		text-align: center;
+	}
+h4{
+		margin-top: 4px;
+		font-color:blue;
+		font-family: 'PT Serif', serif;
+		margin: 10px;
+		font-size: 15px;
+		text-align: center;
+	}
+header{
+	font-color:white;
+	width: 1200px;
+	height: 200px;
+	background: #F2B80D;
+	border-radius: 10px;
+	margin-bottom: 5px;
+}
+nav{
+	width: 1200px;
+	height: 50px;
+	background: #006680;
+	border-radius: 10px;
+	margin-bottom: 5px;
+}
+ul{
+	margin:auto;
+	padding-top: 4px;
+}
+li{
+	float: left;
+		: none;
+	padding: 10px;
+	background: black;
+	margin: 3px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px white inset;
+}
+
+section{
+	width: 900px;
+	background: rgb(179, 179, 179);
+	height: 600px;
+	float:left;
+	border-radius: 5px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+
+aside{
+	width: 265px;
+	background: #FF5900;
+	height: 600px;
+	float: left;
+	border-radius: 10px;
+	margin-left: 20px;
+	margin-bottom: 5px;
+}
+
+footer{
+	width:1200px;
+	height: 40px;
+	background:#333333;
+	float:left;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+p{
+	font-size: 13.5px;
+	font-weight: normal;
+	line-height: 20px;
+	padding: 5px;
+	text-align:justify;
+}
+
+/*CLASES*/
+
+.ancho_menu_home{width:900px;}
+.ancho_menu_paginas{width:970px;}
+
+.menu:link{color:white; text-decoration: none;}
+.menu:visited{color:white; text-decoration: none;}
+.menu:hover{color:white; text-decoration: none; text-shadow:0 0 10px;}
+.menu:active{color:white; text-decoration: none;}
+
+/*SEUDO CLASES*/
